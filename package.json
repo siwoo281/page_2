@@ -66,9 +66,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "dev:job": "vite projects/job",
-    "dev:rc": "vite projects/rc",
-    "dev:school": "vite projects/school",
+    "dev:job": "vite --open /projects/job/index.html",
+    "dev:rc": "vite --open /projects/rc/index.html",
+    "dev:school": "vite --open /projects/school/index.html",
     "build": "vite build",
     "lint": "eslint . --fix",
     "preview": "vite preview"
