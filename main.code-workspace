@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../main_2"
+		},
+		{
+			"name": "Mmain-1",
+			"path": "../../Mmain-1"
+		}
+	],
+	"settings": {}
+}

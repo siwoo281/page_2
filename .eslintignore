@@ -1,0 +1,4 @@
+node_modules/
+build/
+main_backup_*/
+**/src/components/ui_backup_*/
