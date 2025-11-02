@@ -11,8 +11,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       // 공통 UI 컴포넌트 경로 별칭
       '~/components/ui': path.resolve(__dirname, './src/components/ui'),
-      // figma asset 별칭
-      'figma:asset/00615d1b59bc611665476fb4-668d05fa3e99d2d2.png': path.resolve(__dirname, './src/assets/00615d1b59bc611665476fb4-668d05fa3e99d2d2.png'),
+      // figma asset 별칭 (Header.tsx에서 사용하는 경로와 정확히 일치)
+      'figma:asset/00615d1b59bc611665476fb4668d05fa3e99d2d2.png': path.resolve(
+        __dirname,
+        './src/assets/00615d1b59bc611665476fb4668d05fa3e99d2d2.png'
+      ),
     },
   },
   build: {

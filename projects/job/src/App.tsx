@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { ArrowLeft, Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from './components/ui/button';
-import { Checkbox } from './components/ui/checkbox';
-import { Label } from './components/ui/label';
-import { Input } from './components/ui/input';
+import { Button } from '~/components/ui/button';
+import { Checkbox } from '~/components/ui/checkbox';
+import { Label } from '~/components/ui/label';
+import { Input } from '~/components/ui/input';
 
 export default function App() {
   const navigate = useNavigate();

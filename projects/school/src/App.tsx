@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from './components/ui/button';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select';
-import { Checkbox } from './components/ui/checkbox';
-import { Label } from './components/ui/label';
+import { Button } from '~/components/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '~/components/ui/select';
+import { Checkbox } from '~/components/ui/checkbox';
+import { Label } from '~/components/ui/label';
 import logo from 'figma:asset/00615d1b59bc611665476fb4668d05fa3e99d2d2.png';
 
 export default function App() {

@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { ArrowLeft, Settings, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from './components/ui/button';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select';
+import { Button } from '~/components/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '~/components/ui/select';
 import { CourseCard } from './components/CourseCard';
-import { Badge } from './components/ui/badge';
+import { Badge } from '~/components/ui/badge';
 
 export default function App() {
   const navigate = useNavigate();

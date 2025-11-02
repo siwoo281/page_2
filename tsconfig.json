@@ -17,9 +17,11 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "~/components/ui": ["src/components/ui"],
+      "~/*": ["src/*"]
     }
   },
-  "include": ["src", "main/projects/**/*"],
+  "include": ["src", "projects/**/*"],
   "references": []
 }

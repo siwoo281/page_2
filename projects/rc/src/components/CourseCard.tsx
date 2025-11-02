@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Heart, ChevronRight } from 'lucide-react';
-import { Badge } from './ui/badge';
+import { Badge } from '~/components/ui/badge';
 
 interface CourseCardProps {
   id: string;
