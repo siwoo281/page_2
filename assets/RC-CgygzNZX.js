@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./App-DXRyxEZk.js","./main-BBOX9mF1.js","./main-nTAcHSI-.css","./index-CJmV3ZSH.js","./select-DQ3tC_UY.js"])))=>i.map(i=>d[i]);
+import{j as t,r as e,_ as r}from"./main-BBOX9mF1.js";const s=e.lazy(()=>r(()=>import("./App-DXRyxEZk.js"),__vite__mapDeps([0,1,2,3,4]),import.meta.url));function o(){return t.jsx(e.Suspense,{fallback:t.jsx("div",{className:"p-4 text-center text-gray-600",children:"로딩 중…"}),children:t.jsx(s,{})})}export{o as default};
